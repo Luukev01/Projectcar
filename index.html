@@ -113,7 +113,59 @@
 
     </section>
     <!-- End of Car cards -->
+
     <!-- Start of Enquires form -->
+    <section class="p-5 text-center ">
+        <div class="container border border-dark rounded p-4">
+            <h2 class="text-center text-dark"> Enquires Form</h2>
+            <p class="lead text-center text-dark mb-5">Please reach out for more detail</p>
+            <!--Form box-->
+            <form>
+                <!--Start of First and last name-->
+                <div class="row">
+                    <div class="col p-2">
+                        <label for="fName">First name</label>
+                      <input type="text" class="form-control" id="fName" placeholder="First name">
+                    </div>
+                    <div class="col p-2">
+                        <label for="lName">Last name</label>
+                      <input type="text" class="form-control" id="lName" placeholder="Last name">
+                    </div>
+                  </div>
+                <!--End of First and last name-->
+                <!--Start of Email Address-->
+                <div class="form-group p-3">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <!--End of Email Address-->
+                <!--Start of Selecting car   -->
+                <div class="col-auto my-1 p-4">
+                    <label class="mr-sm-2" for="inlineFormCustomSelect">You have selected:</label>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                      <option selected>Model</option>
+                      <option value="1">Porsche 911</option>
+                      <option value="2">Chevrolet Corvette</option>
+                      <option value="3">Jaguar E-Type</option>
+                      <option value="4">Ferrari 250 GTO</option>
+                    </select>
+                  </div>
+                <!--End of Selecting car-->
+                <!--Start of Comment section-->
+                <div class="form-group p-2">
+                  <label for="aComment">Additional Comments</label>
+                  <textarea class="form-control" id="aComment" rows="4"></textarea>
+                </div>
+              </form>
+              <!--End of Comment section-->
+              <!--Start of Submit button-->
+              <div class="col-auto my-1 p-2">
+                <button type="submit" class="btn btn-dark">Submit</button>
+              </div>
+              <!--End of Submit button-->
+        </div>
+    </section>
+
     <!-- End of Enquires form -->
     <!-- Start of Contact details -->
     <!-- End of Contact details -->
